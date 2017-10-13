@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="posts">
+    {% for post in paginator.posts %}
+      <div class="post">
+        <a href="{{ post.url | prepend: site.url }}" class="post-link">
+          <h3>{{ post.title }}</h3>
+        </a>
+        {{ post.excerpt }}
+        <a href="{{ post.url | prepend: site.url }}">More...</a>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% include pagination.html %}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.url }}">via RSS</a></p>
+</div>

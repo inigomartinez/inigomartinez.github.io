@@ -1,1 +1,19 @@
+title: Iñigo Martínez's site
+description:
+google_analytics:
 theme: jekyll-theme-slate
+url: https://inigomartinez.github.io
+baseurl: /
+
+contact:
+  twitter: https://twitter.com/martinezinigo
+  github: https://github.com/inigomartinez/
+  linkedin: https://www.linkedin.com/in/martinezinigo/
+
+permalink: pretty
+paginate: 3
+
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag

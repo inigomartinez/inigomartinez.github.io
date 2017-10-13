@@ -3,7 +3,6 @@ description:
 google_analytics:
 theme: jekyll-theme-slate
 url: https://inigomartinez.github.io
-baseurl: /
 
 contact:
   twitter: https://twitter.com/martinezinigo

@@ -16,3 +16,4 @@ plugins:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jemoji
